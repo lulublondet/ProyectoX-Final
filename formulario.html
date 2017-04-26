@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/form.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="http://mismejoresamigos.com/wp-content/themes/blogtheme/img/favicons/19.png" type="image/x-icon" rel="icon">
+  <title>Formulario de Adopciòn</title>
+</head>
+<body id="body">
+  <h1>Formulario de Adopciòn</h1>
+    <form id = "formulario">
+      <div class="datos input-box">
+        <label class="label">Nombres:</label>
+        <input id="name" type="text" placeholder="Name" >
+        <span   class="tooltip"  id="name_issue"></span>
+      </div>
+      <div class="datos input-box">
+        <label class="label">Apellidos:</label>
+        <input id="lastName" type="text" placeholder="Last-name">
+        <span  class="tooltip" id= "lastname_issue"></span>
+      </div>
+      <div class="datos input-box">
+        <label class="label">Correo: </label>
+        <input  id="email" type="text" placeholder="E-mail" >
+        <span  class="tooltip"  id="email_issue"></span>
+      </div>
+      <div class="datos input-box">
+      <label class="label">Direccion:</label>
+      <input id="address" type="text"  placeholder="Address">
+      <span   class="tooltip" id="address_issue"></span>
+    </div>
+    <div class="datos input-box">
+    <label class="label">Telefono:</label>
+    <input id="phone" type="number"  placeholder="Phone">
+    <span   class="tooltip" id="phone_issue"></span>
+
+   <div class="datos-area">
+    <label class="label label2">Que te Gusta de èl?:</label><br>
+    <textarea class="text-area" rows="8" cols="80"></textarea>
+   </div>
+    <button  id= "boton" class="boton" >Enviar</button>
+   </form>
+    <div id="div-contenedor"></div>
+    <dialog id="myDialog">Gracias por completar el Formulario, Pronto nos comunicaremos con ustedes.</dialog>
+
+<script type="text/javascript" src="assets/js/form.js">
+</script>
+</body>
+</html>
